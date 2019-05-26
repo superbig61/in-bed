@@ -2,12 +2,13 @@
 
 A remake of a site for a [friend](https://www.instagram.com/in__bed/). 
 
-To add a bit of functionality to an otherwise static website, I remade it using React. This is that remake.
+To add a bit of functionality and a responsive design to an otherwise static desktop website, I remade it using exclusively React and vanilla CSS. This is that remake.
 
 
 ### Dependencies
 
 * npm 5.6+
+* Python 3.6+
 
 ### Setup
 
@@ -22,6 +23,59 @@ Then start up the dev server.
 ```
 npm run
 ```
+
+### Add Galleries
+Adding a gallery involves a couple of steps.
+
+1. Add the images to a folder in `./scripts/originals/{folder_name}`.
+
+2. Install the Python dependencies from inside the `scripts` directory.
+
+```
+pip install -r requirements.txt
+```
+
+3. Run the `generate_images.py` script.
+
+```
+python generate_images.py
+```
+
+4. Add a new `Route` into the `App.js` file.
+
+```
+<Switch>
+  ...
+  <Route path="/{url_path}" component={imageGallery('{folder_name}', {number_of_images}, '{page_title}')}/>
+  <Redirect to="/"/>
+</Switch>
+```
+
+|Variable          | Description                                                                  |
+|------------------|------------------------------------------------------------------------------|
+|`url_path`        | The desired route, i.e. `https://nickkossolapov.github.io/in-bed/{url_path}`.|
+|`folder_name`     | The same above when adding the images to a folder.                            |
+|`page_title`      | The text that will appear above the gallery.                                 |
+|`number_of_images`| The total number of images in the gallery.                                   |
+
+
+5. Lastly, add the link to the gallery to `works.jsx`:
+
+```
+<article>
+  <ul>
+    ...
+    <li>
+      <Link to="/{url_path}">{page_title}</Link>
+    </li>
+    <li className="back">
+      <Link to="/">back </Link>
+    </li>
+  </ul>
+</article>
+```
+
+To add images to a gallery, simply add them to the gallery folder in `./scripts/originals/{folder_name}`, run the Python script, and then change the `number_of_images` in the `Route` in `App.js`.
 
 ### Deployment
 
