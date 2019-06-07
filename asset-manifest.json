@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.287e39bf.chunk.css",
-    "main.js": "/static/js/main.c9d89c50.chunk.js",
-    "main.js.map": "/static/js/main.c9d89c50.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.7fbf3b9e.chunk.js": "/static/js/2.7fbf3b9e.chunk.js",
-    "static/js/2.7fbf3b9e.chunk.js.map": "/static/js/2.7fbf3b9e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a2bfedbc95b458d9a958f26199031060.js": "/precache-manifest.a2bfedbc95b458d9a958f26199031060.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.287e39bf.chunk.css.map": "/static/css/main.287e39bf.chunk.css.map",
-    "static/media/about.jpg": "/static/media/about.1e5549a9.jpg",
-    "static/media/home.css": "/static/media/home.2c940f81.jpg"
+    "main.css": "www.in-bed.org/static/css/main.1037e156.chunk.css",
+    "main.js": "www.in-bed.org/static/js/main.c6101445.chunk.js",
+    "main.js.map": "www.in-bed.org/static/js/main.c6101445.chunk.js.map",
+    "runtime~main.js": "www.in-bed.org/static/js/runtime~main.4f663c60.js",
+    "runtime~main.js.map": "www.in-bed.org/static/js/runtime~main.4f663c60.js.map",
+    "static/js/2.9259a5be.chunk.js": "www.in-bed.org/static/js/2.9259a5be.chunk.js",
+    "static/js/2.9259a5be.chunk.js.map": "www.in-bed.org/static/js/2.9259a5be.chunk.js.map",
+    "index.html": "www.in-bed.org/index.html",
+    "precache-manifest.9fdb2fc304dec795dc8385992998cba1.js": "www.in-bed.org/precache-manifest.9fdb2fc304dec795dc8385992998cba1.js",
+    "service-worker.js": "www.in-bed.org/service-worker.js",
+    "static/css/main.1037e156.chunk.css.map": "www.in-bed.org/static/css/main.1037e156.chunk.css.map",
+    "static/media/about.jpg": "www.in-bed.org/static/media/about.1e5549a9.jpg",
+    "static/media/home.css": "www.in-bed.org/static/media/home.2c940f81.jpg"
   }
 }
